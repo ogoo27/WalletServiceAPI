@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace E_WalletAPI.Migrations
 {
     [DbContext(typeof(E_walletDBContext))]
-    [Migration("20221204201511_Secondmigration")]
-    partial class Secondmigration
+    [Migration("20221207083711_Initial Migration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

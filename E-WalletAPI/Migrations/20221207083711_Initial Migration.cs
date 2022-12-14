@@ -17,6 +17,7 @@ namespace E_WalletAPI.Migrations
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     AccountName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    WalletIdGenerated = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     AccountBalance = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
